@@ -1,7 +1,9 @@
 package com.lv297java.hometask1;
 
 import com.lv297java.hometask1.tasks.AbstractTest;
-import com.lv297java.hometask1.tasks.Test107;
+import com.lv297java.hometask1.tasks.Task107;
+import com.lv297java.hometask1.tasks.Task243a;
+import com.lv297java.hometask1.tasks.Task243b;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,7 +15,9 @@ public class Main {
     private static List<AbstractTest> tasksList = new ArrayList();
 
     static {                           //До вечора спробую зробити автоматичну ініціалізацію коллекції з допомогою рефлексії
-        tasksList.add(new Test107());
+        tasksList.add(new Task107());
+        tasksList.add(new Task243a());
+        tasksList.add(new Task243b());
     }
 
     public static void main(String[] args) throws IOException {
