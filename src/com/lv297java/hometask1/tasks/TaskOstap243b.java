@@ -6,9 +6,9 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Task243b extends AbstractTest {
+public class TaskOstap243b extends AbstractTest {
 
-    public Task243b() {
+    public TaskOstap243b() {
         super("243b");
     }
 

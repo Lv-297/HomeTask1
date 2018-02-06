@@ -4,9 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Task107 extends AbstractTest {
+public class TaskOstap107 extends AbstractTest {
 
-    public Task107() {
+    public TaskOstap107() {
         super("107");
     }
 
@@ -38,6 +38,6 @@ public class Task107 extends AbstractTest {
     }
 
     private int findMaxK(int input){
-        return (int)((1/2)*(Math.log10(input)/Math.log10(2)));
+        return (int)(0.5*(Math.log10(input)/Math.log10(2)));
     }
 }
