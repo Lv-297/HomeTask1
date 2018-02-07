@@ -1,5 +1,7 @@
 package com.lv297java.hometask1.tasks;
 
+import com.lv297java.hometask1.AbstractTest;
+
 import java.util.Scanner;
 
 /**

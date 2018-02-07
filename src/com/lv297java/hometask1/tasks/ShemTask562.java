@@ -1,6 +1,12 @@
 package com.lv297java.hometask1.tasks;
 
+import com.lv297java.hometask1.AbstractTest;
+
 public class ShemTask562 extends AbstractTest {
+
+    public ShemTask562() {
+        super("562");
+    }
 
     private static void getArmstrongNumbers() {
 

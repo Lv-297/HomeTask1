@@ -1,12 +1,14 @@
 package com.lv297java.hometask1.tasks;
 
+import com.lv297java.hometask1.AbstractTest;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TaskOstap243a extends AbstractTest{
+public class TaskOstap243a extends AbstractTest {
 
     public TaskOstap243a() {
         super("243a");

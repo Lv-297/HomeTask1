@@ -1,5 +1,7 @@
 package com.lv297java.hometask1.tasks;
 
+import com.lv297java.hometask1.AbstractTest;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -9,6 +11,10 @@ public class ShemTask87 extends AbstractTest {
 
     private String number;
     private String n;
+
+    public ShemTask87() {
+        super("87");
+    }
 
     private String getN() {
         return n;

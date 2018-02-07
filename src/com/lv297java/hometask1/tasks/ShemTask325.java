@@ -1,12 +1,17 @@
 package com.lv297java.hometask1.tasks;
 
+import com.lv297java.hometask1.AbstractTest;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
 public class ShemTask325 extends AbstractTest {
 
+
+    public ShemTask325() {
+        super("325");
+    }
 
     private static void getPrimeFactor() {
 

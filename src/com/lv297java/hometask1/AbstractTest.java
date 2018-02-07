@@ -1,4 +1,4 @@
-package com.lv297java.hometask1.tasks;
+package com.lv297java.hometask1;
 
 public abstract class AbstractTest {
     public AbstractTest(String testID){

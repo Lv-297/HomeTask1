@@ -1,6 +1,9 @@
+package com.lv297java.hometask1.tasks;
+import com.lv297java.hometask1.AbstractTest;
+
 import java.util.Scanner;
 
-public class TestYura323 extends AbstractTest{
+public class TestYura323 extends AbstractTest {
 	
 	private int n;
 	private Scanner sc;
