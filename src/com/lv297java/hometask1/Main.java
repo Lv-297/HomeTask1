@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-    private static List<AbstractTest> tasksList = new ArrayList();
+    private static List<AbstractTest> tasksList = new ArrayList<>();
 
     public static void main(String[] args) throws IOException, ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
         initializeList(searchClasses("src/com/lv297java/hometask1/tasks"));
